@@ -1,0 +1,23 @@
+{
+  "name": "adapto",
+  "bin": {
+    "schedule": "schedule.js",
+    "nms": "nms.js",
+    "api": "api.js",
+    "transcode": "transcode.js",
+    "generate": "generate.js"
+  },
+  "dependencies": {
+    "fastify": "^4.22.0",
+    "node-media-server": "^2.7.0",
+    "pm2": "^5.4.2",
+    "winston": "^3.16.0"
+  },
+  "pkg": {
+    "targets": [
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ]
+  }
+}
