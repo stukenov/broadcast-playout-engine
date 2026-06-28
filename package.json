@@ -8,8 +8,8 @@
     "generate": "generate.js"
   },
   "dependencies": {
-    "fastify": "^5.8.5",
-    "node-media-server": "^4.2.4",
+    "fastify": "^5.9.0",
+    "node-media-server": "^4.2.8",
     "pm2": "^7.0.1",
     "winston": "^3.19.0"
   },
